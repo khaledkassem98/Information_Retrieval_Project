@@ -87,13 +87,11 @@ Each document has an associated category label, which we use for **evaluation gr
 * Implemented the **p-norm model**:
 
   * AND operator:
-    [
-    S_{AND}(d) = \left(\frac{\sum w_{i,d}^p}{n}\right)^{1/p}
-    ]
+    <img width="238" height="93" alt="image" src="https://github.com/user-attachments/assets/8a07802e-d5a9-4b05-9ebc-993c5b9ef9b8" />
+
   * OR operator:
-    [
-    S_{OR}(d) = 1 - \left(\frac{\sum (1-w_{i,d})^p}{n}\right)^{1/p}
-    ]
+   <img width="266" height="74" alt="image" src="https://github.com/user-attachments/assets/fa066bc4-7eed-49f2-bb0d-3164ab81c48d" />
+
 * Compared Boolean vs Extended Boolean retrieval.
 * Visualized how document scores change for different values of `p` (1, 2, 10, 50).
 * Verified that Boolean retrieval is recovered in the limit as `p → ∞`.
